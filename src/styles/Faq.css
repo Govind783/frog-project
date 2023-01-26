@@ -1,0 +1,73 @@
+.wid {
+    width: 52rem;
+}
+
+.faqParent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    background: #010417;
+    z-index: 103;
+    color: white;
+    position: relative;
+    padding-top: 0rem;
+    height: 100vh;
+    max-height: 100vh;
+    flex-direction: column;
+}
+
+.styles_faq-row-wrapper__3vA1D h2 {
+    font-weight: 700;
+    font-family: Futura;
+}
+
+.faqTitle {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.faqLine {
+    width: 78rem;
+    text-align: center;
+    height: 0.07rem;
+    background: rgba(214, 214, 214, 1);
+    margin-bottom: 4rem;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY .styles_row-title-text__1MuhU {
+    font-weight: 600;
+}
+
+@media(max-width:600px) {
+    .styles_faq-row-wrapper__3vA1D {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 4rem;
+
+    }
+
+    .faqHeadingTextHold{
+        padding-top: 23rem;
+    }
+
+}
+
+
+.faqHeadingTextHold {
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    width: 78%;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c .styles_row-title__1YiiY.styles_no-tabfocus__1HmyD{
+    background-color: #010417;
+}
+
+.styles_faq-row-wrapper__3vA1D .styles_row-body__1NvUo .styles_faq-row__2YF3c{
+    background-color: #010417;
+}

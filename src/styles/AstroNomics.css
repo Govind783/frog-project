@@ -1,0 +1,37 @@
+.tokenNomicIndivitual {
+    background: rgba(241, 243, 255, 1);
+    border-radius: 10px;
+    width: 34rem;
+    height: 3.7rem;
+}
+
+.astroSec1 {
+    gap: 1.7rem;
+}
+
+.darkMargin {
+    width: 1rem;
+    height: 3.6rem;
+    display: block;
+    background: rgba(4, 10, 66, 1);
+    border-radius: 5px;
+}
+
+.astroHeading {
+    padding-top: 1rem;
+}
+
+
+.totalSupplyHold {
+    background: #F1F3FF;
+    border-radius: 10px;
+    width: 20rem;
+    height: 16rem;
+}
+
+.astroLine {
+    background: rgba(151, 151, 151, 1);
+    width: 33.5rem;
+    height: 0.08rem;
+
+}

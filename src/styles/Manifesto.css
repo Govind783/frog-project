@@ -1,0 +1,50 @@
+.maniFestoMainParnet {
+    height: auto;
+    min-height: 100vh;
+    padding-bottom: 4rem;
+    background: #F1F3FF;
+    margin-top: -1rem;
+
+}
+
+.mainHold {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    width: 47rem;
+}
+
+.pop {
+    font-family: popins;
+}
+
+.maifestoTextHold {
+    display: flex;
+    justify-content: center;
+    width: 52rem;
+}
+
+@media(max-width:800px){
+
+    .maifestoTextHold{
+        padding-left: 2rem;
+    }
+}
+
+.manifestoLine {
+    width: 79rem !important;
+    text-align: center !important;
+    height: 0.07rem !important;
+    background: rgba(214, 214, 214, 1);
+    margin-bottom: 2rem !important;
+    margin-left: 7rem !important;
+    margin-top: 2.7rem !important;
+}
+
+@media(max-width:900px){
+    .manifestoLine{
+        margin-left: 0 !important;
+        margin-bottom: 3rem !important;
+    }
+}

@@ -1,0 +1,191 @@
+.navFuelingMainParent {
+
+    background-color: #010417;
+    color: white;
+    height: 100%;
+}
+
+.navFuelingTextContainer {
+    width: 34.3rem;
+}
+
+.fuelingHeading {
+    font-size: 3.5rem;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+.navFuellingImg {}
+
+
+
+
+.navFuelingParent {
+    justify-content: space-around;
+    width: 100rem;
+}
+
+
+.navFuelHold {
+    position: relative;
+    top: 7rem;
+}
+
+
+
+@media(max-width:500px) {
+    .navFuelingParent {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hamb {
+        margin-left: 2rem;
+    }
+
+    .navFuelHold {
+        top: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navFuellingImg {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+/* SECOND  */
+
+.navFuellingImg2 {
+    width: 41vw;
+    object-fit: cover;
+    height: 58vh;
+}
+
+
+
+.zoom {
+    transform: scale(0) translateX(-20%);
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(1.9) translateX(-5%) translateY(18%);
+    }
+
+    to {
+        transform: scale(2.4) translateX(-24%) translateY(6%);
+    }
+}
+
+.zindexx {
+    z-index: 9999 !important;
+    position: relative;
+}
+
+
+.animate {
+    animation: zoom 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+
+/* THIRD  */
+
+.zoom3 {
+    width: 20rem;
+    transition: all ease-in 500ms;
+
+}
+
+@keyframes zoom3 {
+    from {
+        transform: scale(1.4) translateY(38%);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(2.4) translateY(7%);
+        opacity: 1;
+
+    }
+}
+
+.animate3 {
+    animation: zoom3 1s ease-in-out;
+    animation-fill-mode: forwards;
+    transition: all ease-in 500ms;
+    height: 28rem;
+
+
+}
+
+/*  FIFTH  */
+
+.textArr5 {
+    background: #B1B3C4;
+    padding-left: 3rem;
+    width: 48rem;
+    padding-top: 1.4rem;
+    height: 17rem;
+}
+
+textarea::placeholder {
+    color: black;
+    font-weight: 600;
+    font-size: large;
+}
+
+.navFuelingTextContainer5 {
+    width: 50rem;
+}
+
+
+
+.navGelaticRowSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    width: 100%;
+    position: relative;
+    top: -37rem;
+    height: 40rem;
+}
+
+
+
+.navFuelingParent5 {
+    width: 51rem;
+    justify-content: flex-start;
+    padding-left: 3rem;
+    z-index: 9 !important;
+    position: relative;
+    top: 4rem;
+
+}
+
+.navFuellingImg4 {
+    width: 48%;
+    position: relative;
+    top: -2rem;
+}
+
+.navFuelingMainParent5 {
+    height: 49rem;
+    overflow-y: hidden !important;
+}
+
+.gelacticBtn{
+    background-color: #B1B3C4;
+    color: #010417;
+    border-radius: 10px;
+    width: 9.4rem;
+    height: 3rem;
+}

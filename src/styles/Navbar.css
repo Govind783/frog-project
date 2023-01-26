@@ -1,0 +1,519 @@
+.fontfam {
+    font-family: Poppins;
+    color: white;
+}
+
+
+
+.navbar {
+    position: sticky;
+    background-color: #010417;
+}
+
+
+.z99 {
+    z-index: 9999999999 !important;
+}
+
+button {
+    cursor: pointer;
+    z-index: 1;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100%;
+    background: #000;
+    transition: left 0.3s ease-out;
+    z-index: 0;
+}
+
+
+.open {
+    left: 0;
+}
+
+nav {
+    padding: 20px;
+}
+
+nav a {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+    background: #333;
+}
+
+.fontItemsDesktop {
+    border-radius: 6.2px;
+    opacity: 1;
+    background: rgb(2, 7, 38);
+    width: 7.2vw;
+    color: rgb(250, 245, 245);
+    font-size: 15px;
+    padding-top: 0.4rem;
+    margin-left: -2rem;
+    height: 2.3rem;
+}
+
+.navIconsDesktop {
+    background: rgb(2, 7, 38);
+    fill: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 4.3vw;
+    margin-left: -2rem;
+    padding-top: 0.2rem;
+    border-radius: 6.2px;
+    height: 2.2rem;
+}
+
+.fontItems2 {
+    opacity: 1;
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 500ms;
+    transform: translateY(5rem);
+
+}
+
+.fadeup-enter {
+    transform: translateY(50px);
+    opacity: 0;
+    display: none;
+}
+
+.fadeup-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+    transition: all 0.3s ease-out;
+}
+
+.fadeup-exit {
+    transform: translateY(0);
+    opacity: 1;
+    display: block;
+}
+
+.fadeup-exit-active {
+    transform: translateY(50px);
+    opacity: 0;
+    display: none;
+    transition: all 0.3s ease-out;
+}
+
+
+/* MODAL */
+.react-responsive-modal-modal {
+    width: 100%;
+    height: 94%;
+    background-color: #0b0b07 !important;
+    color: rgb(86, 85, 85) !important;
+    text-align: center;
+    fill: rgba(195, 195, 195, 1);
+    z-index: 9999999 !important;
+    overflow: hidden !important;
+
+
+}
+
+#modal-container {
+    overflow: hidden !important;
+}
+
+.op1 {
+    opacity: 1 !important;
+    transition: all ease-in 2000ms;
+}
+
+.op0 {
+    opacity: 0;
+    transition: all ease-in 2000ms;
+
+}
+
+
+.orbitImgHold {
+    display: flex;
+    width: 99rem;
+    position: relative;
+    top: -12rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.stellarImgHold {
+    display: flex;
+    width: 95rem;
+    position: relative;
+    top: -12rem;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navHoverImg {
+    width: 21rem;
+    z-index: 9999999 !important;
+}
+
+.modalText {
+    transition: all ease-in-out 300ms;
+    color: rgba(66, 66, 66, 1);
+
+}
+
+.modalText:hover {
+    color: #F1F3FF;
+}
+
+.displNone {
+    display: none;
+}
+
+.hob {
+
+    transition: all ease-in-out 5000ms;
+    /*opacity: 1;*/
+}
+
+.react-responsive-modal-closeButton {
+    right: 70rem !important;
+    top: 3.5rem !important;
+    width: 4rem !important;
+    height: 4rem !important;
+    fill: rgba(66, 66, 66, 1);
+
+}
+
+.react-responsive-modal-modal {
+    background-color: #010417;
+}
+
+.modalTextHold {
+    background-color: #010417;
+}
+
+
+[data-testid="close-icon"] {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.bcd {
+    position: absolute !important;
+    top: 5rem !important;
+}
+
+.react-responsive-modal-container {
+    height: 105% !important;
+}
+
+
+.show {
+    transition: all ease-in-out 500ms;
+    opacity: 1 !important;
+}
+
+
+.navHoverImg {
+    transition: all ease-in 2000ms;
+}
+
+.immmHold {
+    position: relative;
+    top: -24rem;
+
+}
+
+.immmHold2 {
+    position: relative;
+    top: -39rem;
+}
+
+.inter2 {
+    width: 44rem;
+
+}
+
+.immmHold3 {
+    position: relative;
+    top: -26rem;
+}
+
+.immmHold4 {
+    position: relative;
+    top: -25.5rem;
+}
+
+.inter4 {
+    width: 32rem;
+}
+
+.immmHold5 {
+    position: relative;
+    top: -25.8rem;
+}
+
+.modalTextHold {
+    height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: bottom;
+    gap: 2.5rem
+}
+
+.modalText {
+    font-size: 3.5rem;
+}
+
+.react-responsive-modal-closeButton {
+    transition: all ease 250ms;
+}
+
+.react-responsive-modal-closeButton:hover {
+    color: white;
+    fill: white;
+}
+
+.modalText {
+    outline: none !important;
+}
+
+
+/*  NAV MOIDAL RESPONOSIVE */
+
+
+/* 1 SMALLER LAPTOPS */
+@media(max-width:1200px) {
+
+    .modalText {
+        font-size: 2.9rem;
+    }
+
+    .react-responsive-modal-closeButton {
+        left: 8rem;
+    }
+}
+
+@media(max-width:1050px) {
+
+    .immmHold img {
+        width: 18rem;
+    }
+
+    .immmHold {
+        top: -19rem;
+    }
+}
+
+
+
+/* MODAL ASSETS DISPLAY  */
+@media(max-width:1000px) {
+    .immmHold {
+        display: none;
+    }
+
+    .immmHold2 {
+        display: none;
+    }
+
+    .immmHold3 {
+        display: none;
+    }
+
+    .immmHold4 {
+        display: none;
+    }
+
+    .immmHold5 {
+        display: none;
+    }
+
+    .navGelaticRowSection {
+        display: none !important;
+    }
+
+
+}
+
+
+/* MODAL TEXT */
+@media(max-width:900px) {
+    .react-responsive-modal-closeButton {
+        left: 5rem;
+    }
+
+    .modalText {
+        font-size: 2.69rem;
+    }
+}
+
+
+
+
+@media(max-width:800px) {
+    .react-responsive-modal-closeButton {
+        left: 3rem;
+    }
+
+    .modalText {
+        font-size: 2.5rem;
+    }
+
+}
+
+/* ASSETS ON THE 4 GALLECTIC PAGES */
+@media(max-width:1020px) {
+
+    .navFuelHold {
+        display: none;
+    }
+
+    .navFuellingImg4 {
+        display: none;
+    }
+}
+
+
+/* MODAL CONTROLS */
+@media(max-width:650px) {
+    .modalText {
+        font-size: 1.7rem;
+        padding-top: 0rem;
+        text-align: center;
+        color: #949292;
+    }
+
+    .react-responsive-modal-closeButton {
+        width: 3rem !important;
+        height: 2rem !important;
+        left: 1rem;
+        top: 1rem !important;
+        fill: #959494;
+
+    }
+}
+
+
+/* GALLECTIC PAGE */
+@media(max-width:510px) {
+    .llll {
+        padding-left: 0;
+    }
+
+    .mobHead {
+        font-size: 3.2rem !important;
+    }
+}
+
+
+
+/*  */
+@media(max-width:800px) {
+
+    .galecticHeadin4 {
+        font-size: 2.5rem !important;
+    }
+
+    .navFuelingParent5 {
+        padding-left: 0.7rem !important;
+    }
+
+    .navFuelingMainParent5 {
+        padding-top: 1rem !important;
+    }
+
+    .textArrHold {
+        padding-right: 2rem !important;
+    }
+
+    .textArr5 {
+        padding-left: 1.5rem !important;
+    }
+}
+
+
+/* CAREERS NAVBAR */
+
+.CareersfontItemsDesktop {
+    background-color: #050E5A;
+    border-radius: 6.2px;
+    opacity: 1;
+    width: 7.2vw;
+    color: rgb(250, 245, 245);
+    font-size: 15px;
+    padding-top: 0.4rem;
+    margin-left: -1rem;
+    height: 2.5rem;
+    position: relative;
+    z-index: 9;
+
+}
+
+.CareersnavIconsDesktop {
+    background-color: #050E5A;
+    fill: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    width: 4.3vw;
+    margin-left: -1rem;
+    padding-top: 0.2rem;
+    border-radius: 6.2px;
+    height: 2.2rem;
+    z-index: 9;
+    position: relative;
+
+}
+
+.Careernavbar {
+    background-color: #030835;
+}
+
+.careerNavZindex {
+    z-index: 9;
+}
+
+
+
+/*  MANIFESTO NAV */
+
+.manifestOfontItemsDesktop {
+    background: #EAEDFF;
+    border-radius: 6.2px;
+    opacity: 1;
+    width: 7.2vw;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding-top: 0.4rem;
+    margin-left: -1rem;
+    height: 2.5rem;
+}
+
+.manifestOnavIconsDesktop {
+    background: #EAEDFF;
+    fill: rgb(9, 9, 9);
+    color: rgb(0, 0, 0);
+    width: 4.3vw;
+    margin-left: -1rem;
+    padding-top: 0.2rem;
+    border-radius: 6.2px;
+    height: 2.2rem;
+    position: relative;
+
+}
+
+#manifestoHamBurgerColor {
+    color: black;
+}
+
+.maniFestONavBar {
+    background: #F1F3FF;
+}

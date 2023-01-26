@@ -1,0 +1,293 @@
+.careerSec1 {
+    background-color: #030835;
+    height: 31rem;
+    position: relative;
+    top: -6rem;
+
+}
+
+.joinTeam {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 0em;
+    margin-right: 0rem;
+
+}
+
+.carPara {
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+}
+
+.sec1TextHold {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: flex-end;
+    width: 37rem;
+    text-align: left;
+    position: relative;
+    top: 11rem;
+
+}
+
+
+
+.line {
+    width: 7rem;
+    height: 2.8rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+}
+
+.line2 {
+    width: 7rem;
+    height: 2.8rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+}
+
+.line3 {
+    width: 7rem;
+    height: 2.8rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+}
+
+.line4 {
+    width: 7rem;
+    height: 2.8rem;
+    margin-right: 2.5rem;
+    margin-top: 3rem;
+}
+
+
+
+
+
+.greyFont {
+    color: rgba(127, 134, 198, 1) !important;
+    font-weight: 500;
+
+}
+
+/*
+.secParent {
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 40rem;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: white;
+    color: black;
+    display: flex;
+    height: 40rem;
+    gap: 18rem;
+}
+
+.careerSec2-A {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    flex-direction: column;
+
+}
+
+.careerSec2-B {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+    flex-direction: column;
+
+}*/
+
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0px;
+    background-color: white;
+    color: #030835;
+    min-height: 36rem;
+    height: auto;
+    padding-top: 5rem;
+    margin-top: -8.6rem;
+}
+
+@media(max-width:800px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .a {
+        padding-left: 3rem;
+
+    }
+
+
+}
+
+@media(max-width:750px) {
+    .mobLocation1 {
+        left: 0;
+    }
+}
+
+/*  RESPONSOVE FOR CONATINER */
+
+@media(max-width:800px) {
+
+    .a,
+    .a2 {
+        border-bottom: 0 !important;
+
+    }
+}
+
+
+/* RESPONSOVE OF SEC1 THE BLUE SECTION */
+
+@media(max-width:627px) {
+    .sec1TextHold {
+        width: 31rem;
+        top: 8rem;
+        padding-left: 1.5rem;
+        padding-right: -0.88rem;
+
+    }
+
+    .sec1TextHold2 {
+        padding-left: 2.5rem;
+    }
+
+    .remotePt {
+        font-size: 19px;
+
+    }
+
+    .loc2 {
+        font-size: 35px;
+    }
+
+    .a,
+    .a2 {
+        margin-top: 1rem !important;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgb(0 0 0/6%) !important;
+
+    }
+
+    .careerSec1 {
+        height: 36rem;
+    }
+
+    .joinTeam {
+        font-size: 3rem;
+        margin-right: 7rem;
+
+    }
+
+    .carPara {
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0em;
+        padding-left: 0.4rem;
+        padding-right: 1rem;
+    }
+
+    .th {
+        text-align: left;
+        padding-left: 0rem;
+    }
+
+    .line {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .line2 {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .line3 {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+
+    .line4 {
+        width: 5rem;
+        height: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+
+    }
+}
+
+@media(max-width:800px) {
+
+    .a,
+    .a2 {
+        margin-top: 1rem !important;
+        margin-bottom: 2rem;
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, .1), 0 1px 2px 0 rgb(0 0 0/6%) !important;
+
+    }
+}
+
+
+.a {
+    padding-top: 6rem;
+    margin-top: -2.8rem;
+    transition: all 300ms ease;
+    border-left: 1px solid rgba(128, 128, 128, 0.725);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.725);
+    cursor: pointer;
+}
+
+.a:hover {
+    background: #030835;
+    color: white;
+}
+
+.imageColor {
+    filter: brightness(0) invert(1);
+    transition: all ease 100ms;
+}
+
+
+.a2 {
+    margin-top: 0rem !important;
+}
+
+.visible {
+    opacity: 1;
+    transition: cubic-bezier(0.645, 0.045, 0.355, 1) 300ms;
+    transform: translateY(6rem);
+}
+
+.hamMenu {
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 300ms;
+    background: red;
+    width: 80rem;
+    height: 33rem;
+}

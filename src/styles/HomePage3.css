@@ -1,0 +1,24 @@
+.homeConatiner3 {
+    width: 40rem;
+    margin-left: 4rem;
+}
+
+.contesllationHold{
+    width: 100%;
+    height: 30rem;
+    background-color: transparent;
+}
+
+.sec3imgConstillationHold{
+}
+
+.constilationImg{
+}
+
+
+@media(min-width:1170px){
+
+    .homeTxtHold2{
+        margin-right: 2rem;
+    }
+}

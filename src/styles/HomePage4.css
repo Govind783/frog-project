@@ -1,0 +1,35 @@
+.pg4CTAConatiner {
+    gap: 2.5rem;
+    width: 48rem;
+
+}
+
+.page4Indivitual {
+    background: rgba(3, 8, 50, 1);
+color: white;
+    border-radius: 6px;
+    width: 19.7rem;
+    height: 5rem;
+}
+
+.pg4P {
+    color: rgba(204, 204, 204, 1);
+
+}
+
+.homeTextMainContainer4 {
+    width: 59rem;
+
+}
+
+.sec4BtnHeading{
+    color: rgba(255, 255, 255, 1);
+    
+}
+
+@media(max-width:550px) {
+    .homeTextMainContainer4 {
+        height: 57rem;
+        background: rgba(1, 4, 23, 1);
+    }
+}
