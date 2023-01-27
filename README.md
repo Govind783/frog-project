@@ -21,13 +21,13 @@ HomePage section 4 =>
 
 
 
-The intersteallar Modal => 
-<img src="https://media.giphy.com/media/zw2zUjdRcdpKXdEMPP/giphy.gif" alt="example gif" title="intersteallar modal">
-
-
-
 careers page =>
 ![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815066/careers_uju68u.jpg)
+
+
+
+careers page again =>
+![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674818823/carer2_sjrgiv.png)
 
 
 
@@ -49,6 +49,13 @@ career specific page again =>
 FAQ page => 
 
 ![FAQ page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815136/faq_zhfngj.jpg)
+
+
+
+
+The intersteallar Modal => 
+<img src="https://media.giphy.com/media/zw2zUjdRcdpKXdEMPP/giphy.gif" alt="example gif" title="intersteallar modal">
+
 
 
 
