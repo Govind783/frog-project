@@ -25,6 +25,8 @@ The intersteallar Modal =>
 ![intersteallar modal gif](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674816856/YouCut_20230127_162017266_obbm9i.gif)
 
 
+
+
 careers page =>
 ![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815066/careers_uju68u.jpg)
 
