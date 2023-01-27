@@ -22,7 +22,7 @@ HomePage section 4 =>
 
 
 The intersteallar Modal => 
-<img src="https://res.cloudinary.com/dqouqf5rl/image/upload/v1674816856/YouCut_20230127_162017266_obbm9i.gif">
+<img src="https://media.giphy.com/media/zw2zUjdRcdpKXdEMPP/giphy.gif" alt="example gif" title="intersteallar modal">
 
 
 
