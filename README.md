@@ -6,6 +6,6 @@ Upon clicking on "intersteallar" in the navbar a modal opens up with various opt
 PS: the backend is being handled by the client's teams after setting up the server and some work on the dns the website would be live on the current domain https://www.froggiestoken.com/  by may of 2023.
 Till then I'm attaching the deployed front-end link and some screenShots:) 
 
-![Homepage section 1](https://imgur.com/a/WPylEe5)
+![Homepage section 1](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674814068/frogHome1_uoeue1.jpg)
 
 
