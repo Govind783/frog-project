@@ -22,8 +22,7 @@ HomePage section 4 =>
 
 
 The intersteallar Modal => 
-![intersteallar modal gif](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674816856/YouCut_20230127_162017266_obbm9i.gif)
-
+<img src="https://res.cloudinary.com/dqouqf5rl/image/upload/v1674816856/YouCut_20230127_162017266_obbm9i.gif">
 
 
 
