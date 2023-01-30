@@ -21,39 +21,39 @@ HomePage section 4 =>
 
 
 
-careers page =>
+careers page => url = /careers
 ![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815066/careers_uju68u.jpg)
 
 
 
-careers page again =>
+careers page again => url = /careers
 ![careers page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674818823/carer2_sjrgiv.png)
 
 
 
-manifesto Page => 
+manifesto Page => url =  /manifesto
 ![manifesto page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815063/manifesto_tops8z.jpg)
 
 
 
 
-careers specific page =>
+careers specific page => url = /careers/jobname
 ![career specific page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815137/carerspec1_bovxkn.jpg)
 
 
 
-career specific page again =>
+career specific page again =>  url = /careers/jobname
 ![career specific page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815138/carerspec2_lyiqsj.jpg)
 
 
-FAQ page => 
+FAQ page =>   url = /faq
 
 ![FAQ page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815136/faq_zhfngj.jpg)
 
 
 
 
-The intersteallar Modal => 
+The intersteallar Modal =>  (opens upon clicking intersteallar in the navbar)
 <img src="https://media.giphy.com/media/zw2zUjdRcdpKXdEMPP/giphy.gif" alt="example gif" title="intersteallar modal">
 
 
