@@ -3,7 +3,7 @@
     background: rgba(1, 4, 23, 1);
     color: white;
     max-height: 130vh;
- }
+}
 
 .frogText {
     font-size: 4rem;
@@ -29,6 +29,7 @@
 .homeTextMainContainer {
     width: 48rem;
     justify-content: space-evenly;
+    z-index: 9 !important;
 
 }
 
@@ -48,6 +49,23 @@
 
 }
 
+.borderBottomPriceBox {
+    border-bottom: 2px solid white;
+}
+
+@media(max-width:650px) {
+    .boxTxtMainParent {
+        font-size: 14px !important;
+        padding-left: 1.4rem !important;
+        padding-right: 1.7rem !important;
+        
+    }
+
+    .priceBoxImg{
+        height: 16rem !important;
+    }
+
+}
 
 
 
@@ -138,6 +156,10 @@
     .homePageMainParent {
         height: 146vh !important;
 
+    }
+
+    .homePageMainParent3{
+        height: 113vh !important;
     }
 }
 
@@ -302,7 +324,7 @@
 
 .homePageMainParent2 {
     position: relative;
-    padding-top: 0rem;
+    padding-top: 3rem;
     height: auto;
     min-height: 49rem;
 }
@@ -358,8 +380,8 @@
 
 }
 
-@media(max-width:510px){
-    .homePage2CardsHold{
+@media(max-width:510px) {
+    .homePage2CardsHold {
         width: 25rem;
     }
 }

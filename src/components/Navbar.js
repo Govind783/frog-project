@@ -21,7 +21,7 @@ import intersteallar4 from "../assets/intersteallar4.png"
 import intersteallar5 from "../assets/interstellar5.png"
 import { Transition } from 'react-transition-group';
 
-import nav1 from "../assets/nav1.jpg"
+import nav1 from "../assets/nav1.jpeg"
 
 const Navbar = () => {
 

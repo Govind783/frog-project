@@ -7,7 +7,7 @@ import btnAsset2 from "../assets/sec4Btn2.png"
 import btnAsset3 from "../assets/sec4Btn3.png"
 import btnAsset4 from "../assets/sec4Btn4.png"
 import { useState, useEffect } from 'react'
-
+import { HashLink } from 'react-router-hash-link'
 
 const HomePage4 = () => {
 
@@ -56,10 +56,11 @@ const HomePage4 = () => {
             <div className='homeTextMainContainer homeTextMainContainer4 relative top-20 pl-5 flex flex-nowrap'>
 
                 <div className='HomeLineHold lineHold4 flex-col flex gap-10 flex-wrap'>
-                    <p id='line13' className={`whiteLine ${highlightedLine === 13 ? 'highlighted' : ''}`} onClick={() => scrollToLine(13)}></p>
-                    <p id='line14' className={`whiteLine ${highlightedLine === 14 ? 'highlighted' : ''}`} onClick={() => scrollToLine(14)}></p>
-                    <p id='line15' className={`whiteLine ${highlightedLine === 15 ? 'highlighted' : ''}`} onClick={() => scrollToLine(15)}></p>
-                    <p id='line16' className={`whiteLine ${highlightedLine === 16 ? 'highlighted' : ''}`} onClick={() => scrollToLine(16)}></p>
+
+                    <HashLink to="#line1" smooth><p id='line13' className={`whiteLine`}></p></HashLink>
+                    <HashLink to="#line5" smooth><p id='line14' className={`whiteLine `}></p></HashLink>
+                    <HashLink to="#line9" smooth><p id='line15' className={`whiteLine `}></p></HashLink>
+                    <HashLink to='#line13' smooth><p id='line16' className={`whiteLine highlighted`}></p></HashLink>
                 </div>
 
 

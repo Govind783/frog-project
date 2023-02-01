@@ -22,6 +22,7 @@ import intersteallar5 from "../assets/interstellar5.png"
 
 import { useRef } from 'react';
 import { Transition } from 'react-transition-group';
+import navblue from "../assets/navwhite.jpeg"
 
 const ManifestoNav = () => {
     const [width, height] = useWindowSize()
@@ -148,7 +149,7 @@ const ManifestoNav = () => {
                     :
                     <div className="flex-none">
                         <ul className="flex gap-11 mt-6 capitalize px-1 fontfam">
-                            <li className=' manifestOfontItemsDesktop text-white'><Link>Everlist</Link></li>
+                            <li className=' manifestOfontItemsDesktop text-white'><Link> <img src={navblue} className="nav1 relative" /> </Link></li>
                             <li className=' manifestOfontItemsDesktop'><button onClick={onOpenModal}>interstallar</button></li>
                             <li className=' manifestOfontItemsDesktop'><Link>manifesto</Link></li>
                             <li className=' manifestOfontItemsDesktop'><Link>buy <AiFillCaretDown className=' inline-block text-sm pb-1' /> </Link></li>

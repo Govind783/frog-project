@@ -3,7 +3,6 @@ import "../styles/NavFueling.css"
 import NavHamburger from './NavHamburger'
 
 import gallecticSinglePage from "../assets/gallecticSinglePage.png"
-import intersteallar5 from "../assets/interstellar5.png"
 
 const NavGallectic = () => {
   return (
@@ -22,26 +21,35 @@ const NavGallectic = () => {
             <br />
           </p>
 
-          <div className='pl-4 textArrHold pr-7'>
-            <textarea className="textarea textArr5 font-semibold text-black popins pl-10" placeholder="Add a description..."></textarea>
-          </div>
+          <form
+            method="POST"
+            action="https://script.google.com/macros/s/AKfycbzvm46Zj4omuXWo_qDvEvyo9vD7zCdn9q-HWTwsM7Zx33QBUhgBqdgx1ispf_6AaHl0DA/exec"
+          >
+            <div className='pl-4 textArrHold pr-7'>
 
-          <br />
-          <div className='w47rem text-left pl-4'>
-            <button className='gelacticBtn font-semibold'>ATTACH</button>
-          </div>
+
+              <textarea className="textarea textArr5 font-semibold text-black popins pl-10" placeholder="Add a description..."
+                name='Responses'
+                required
+              ></textarea>
+              <label for="submitBtn"></label>
+
+            </div>
+
+            <br />
+            <div className='w47rem text-left pl-4'>
+              <button className='gelacticBtn font-semibold' id="submitBtn" type="submit">SUBMIT</button>
+            </div>
+          </form>
+
         </div>
-
-
-
-
 
 
       </div>
 
       <div className='navGelaticRowSection flex flex-wrap' data-aos="fade-in">
         <p className='w-6 h-6'></p>
-        <img src={gallecticSinglePage} className="navFuellingImg navFuellingImg4 zoom4" />
+        <img src={gallecticSinglePage} className="navFuellingImg navFuellingImg4 zoom4" alt='alt' />
 
       </div>
 

@@ -9,7 +9,7 @@ import card4 from "../assets/cardd4.png"
 import card5 from "../assets/cardd5.png"
 import { useState, useEffect } from 'react'
 import asset1 from "../assets/mainAsset.png"
-
+import { HashLink } from 'react-router-hash-link'
 
 
 const HomePage2 = () => {
@@ -64,10 +64,11 @@ const HomePage2 = () => {
             <div className='homeTextMainContainer homeTextMainContainer2 relative top-20 pl-5 flex flex-nowrap'>
 
                 <div className='HomeLineHold HomeLineHold2 flex-col flex gap-10 flex-wrap'>
-                    <p id='line5' className={`whiteLine ${highlightedLine === 5 ? 'highlighted' : ''}`} onClick={() => scrollToLine(5)}></p>
-                    <p id='line6' className={`whiteLine ${highlightedLine === 6 ? 'highlighted' : ''}`} onClick={() => scrollToLine(6)}></p>
-                    <p id='line7' className={`whiteLine ${highlightedLine === 7 ? 'highlighted' : ''}`} onClick={() => scrollToLine(7)}></p>
-                    <p id='line8' className={`whiteLine ${highlightedLine === 8 ? 'highlighted' : ''}`} onClick={() => scrollToLine(8)}></p>
+
+                    <HashLink to="#line1" smooth><p id='line5' className={`whiteLine`}></p></HashLink>
+                    <HashLink to="#line5" smooth><p id='line6' className={`whiteLine highlighted`}></p></HashLink>
+                    <HashLink to="#line9" smooth><p id='line7' className={`whiteLine`}></p></HashLink>
+                    <HashLink to='#line13' smooth><p id='line8' className={`whiteLine`}></p></HashLink>
                 </div>
 
 

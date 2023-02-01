@@ -4,6 +4,7 @@ import { BsArrowDown } from 'react-icons/bs'
 import asset1 from "../assets/mainAsset.png"
 import { useState, useEffect } from 'react'
 import sec3img from "../assets/constilatio.png"
+import { HashLink } from 'react-router-hash-link'
 
 const HomePage3 = () => {
 
@@ -53,10 +54,12 @@ const HomePage3 = () => {
             <div className='homeTextMainContainer relative top-20 pl-5 flex flex-nowrap'>
 
                 <div className='HomeLineHold flex-col flex gap-10 flex-wrap'>
-                    <p id='line9' className={`whiteLine ${highlightedLine === 9 ? 'highlighted' : ''}`} onClick={() => scrollToLine(9)}></p>
-                    <p id='line10' className={`whiteLine ${highlightedLine === 10 ? 'highlighted' : ''}`} onClick={() => scrollToLine(10)}></p>
-                    <p id='line11' className={`whiteLine ${highlightedLine === 11 ? 'highlighted' : ''}`} onClick={() => scrollToLine(11)}></p>
-                    <p id='line12' className={`whiteLine ${highlightedLine === 12 ? 'highlighted' : ''}`} onClick={() => scrollToLine(12)}></p>
+
+                    <HashLink to="#line1" smooth><p id='line9' className={`whiteLine`}></p></HashLink>
+                    <HashLink to="#line5" smooth><p id='line10' className={`whiteLine `}></p></HashLink>
+                    <HashLink to="#line9" smooth><p id='line11' className={`whiteLine highlighted`}></p></HashLink>
+                    <HashLink to='#line13' smooth><p id='line12' className={`whiteLine`}></p></HashLink>
+
                 </div>
 
 

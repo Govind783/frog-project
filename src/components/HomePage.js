@@ -4,8 +4,10 @@ import { BsArrowDown } from 'react-icons/bs'
 import asset1 from "../assets/mainAsset.png"
 import { useState } from 'react'
 import { useEffect } from 'react'
-import priceConatiner from "../assets/priceBox.png"
+import priceConatiner from "../assets/homePriceBox2.png"
 import { BiChevronUp } from "react-icons/bi"
+import { HashLink } from 'react-router-hash-link';
+import incrementArrow from "../assets/boxArrUp.png"
 
 // getBoundingClientRect
 const HomePage = () => {
@@ -62,10 +64,12 @@ const HomePage = () => {
 
 
                 <div className='HomeLineHold flex-col flex gap-10 flex-wrap'>
-                    <p id='line1' className={`whiteLine ${highlightedLine === 1 ? 'highlighted' : ''}`} onClick={() => scrollToLine(1)}></p>
-                    <p id='line2' className={`whiteLine ${highlightedLine === 2 ? 'highlighted' : ''}`} onClick={() => scrollToLine(2)}></p>
-                    <p id='line3' className={`whiteLine ${highlightedLine === 3 ? 'highlighted' : ''}`} onClick={() => scrollToLine(3)}></p>
-                    <p id='line4' className={`whiteLine ${highlightedLine === 4 ? 'highlighted' : ''}`} onClick={() => scrollToLine(4)}></p>
+
+                    <p id='line1' className={`whiteLine highlighted`}></p>
+                    <HashLink to="#line5" smooth><p id='line2' className={`whiteLine`}></p></HashLink>
+                    <HashLink to="#line9" smooth><p id='line3' className={`whiteLine`}></p></HashLink>
+                    <HashLink to='#line13' smooth><p id='line4' className={`whiteLine`}></p></HashLink>
+
                 </div>
 
 
@@ -100,10 +104,26 @@ const HomePage = () => {
 
                     <div className='thumbnail'>
                         <img src={priceConatiner} className="priceBoxImg" />
-                        <div className='caption'>
-                            <p className='font-semibold'>$0.000000000000002477 <span className=' text-green-300 inline-block'> <BiChevronUp className='inline-block relative greenChevron' /> 5.1% </span></p>
-                            <p className='font-semibold'>MRAKET CAP : $172.929.11</p>
-                            <p className='font-semibold'>HOLDERS: 1721 </p>
+                        <div className='caption pb-9'>
+                            <div className='boxTxtMainParent '>
+
+                                <div className='boxTxtPrice1 borderBottomPriceBox mb-1'>
+                                    <p className=' text-gray-400 font-medium text-left'>$FRGST PRICE</p>
+                                    <p className='font-semibold flex justify-between gap-3'>$0.000000000000002477 <span className=' mb-2 inline-block boxStatsIncrement text-white bg-green-500 rounded-md w-16 h-7 pl-1'> <img src={incrementArrow} className=' inline-block relative greenChevron' /> <p className=' inline-block pt-1'>5.1%</p> </span></p>
+                                </div>
+
+                                <div className='boxTxtMarketCap borderBottomPriceBox mb-1'>
+                                    <p className=' text-gray-400 font-medium text-left'>MARKET CAP</p>
+                                    <p className='font-semibold text-left flex justify-between'>$172.929.11<span className=' mb-2 inline-block boxStatsIncrement text-white bg-green-500 rounded-md w-16 h-7 pl-1'> <img src={incrementArrow} className=' inline-block relative greenChevron' /> <p className=' inline-block pt-1'>5.1%</p> </span></p>
+                                </div>
+
+                                <div className='boxTxtPrice1 borderBottomPriceBox mb-1'>
+                                    <p className=' text-gray-400 font-medium text-left'>HOLDERS</p>
+                                    <p className='font-semibold text-left flex justify-between'>1721 <span className=' mb-2 inline-block boxStatsIncrement text-white bg-green-500 rounded-md w-16 h-7 pl-1'> <img src={incrementArrow} className=' inline-block relative greenChevron' /> <p className=' inline-block pt-1'>5.1%</p> </span> </p>
+                                </div>
+
+
+                            </div>
                         </div>
                     </div>
 
