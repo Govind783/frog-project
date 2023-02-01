@@ -22,7 +22,7 @@
 .maifestoTextHold {
     display: flex;
     justify-content: center;
-    width: 52rem;
+    width: 57rem;
 }
 
 @media(max-width:800px){

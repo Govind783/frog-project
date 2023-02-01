@@ -1,0 +1,26 @@
+.siteMapTextHold {
+    width: 25rem;
+
+}
+
+.link-hover {
+    font-weight: 600;
+}
+
+.mainFooter {
+    justify-content: space-evenly;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+
+}
+
+.siteMapFooterHold {
+    position: relative;
+    top: -4rem;
+}
+
+@media(max-width:700px){
+    .mainFooter{
+        justify-content: flex-start;
+    }
+}

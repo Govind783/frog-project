@@ -4,9 +4,16 @@ import { BsArrowDown } from 'react-icons/bs'
 import { FaTwitter } from 'react-icons/fa'
 import card1 from "../assets/cardd1.png"
 import card2 from "../assets/cardd2.png"
-import card3 from "../assets/cardd3.png"
+import card3 from "../assets/compass2.png"
 import card4 from "../assets/cardd4.png"
 import card5 from "../assets/cardd5.png"
+
+import card6 from "../assets/card6.png"
+import card7 from "../assets/card7.png"
+import card8 from "../assets/card8.png"
+import card9 from "../assets/card9.png"
+import card10 from "../assets/card10.png"
+
 import { useState, useEffect } from 'react'
 import asset1 from "../assets/mainAsset.png"
 import { HashLink } from 'react-router-hash-link'
@@ -87,59 +94,113 @@ const HomePage2 = () => {
                     <br />
 
 
+                    {/* first4 cards */}
+
                     <div className='homePage2CardsHold flex flex-wrap'>
 
                         <div className='homePage2IndivitualCard'>
-                            <img src={card1} className=" w-24 mb-5" />
-                            <p className='font-bold text-xl'>CRAZYX</p>
-                            <p className=' text-gray-500 cardSubHeading'>Core Member</p>
+                            <img src={card1} className=" w-20 " />
+                            <p className='font-bold text-lg page2CardHeading'>CRAZYX</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Core Member</p>
 
-                            <div className="twitter-icon-container text-center mr-5 hidden text-white fill-white">
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
                                 <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
                             </div>
                         </div>
 
                         <div className='homePage2IndivitualCard'>
-                            <img src={card2} className="card2Img w-36  mb-3" />
-                            <p className='font-bold text-xl '>CHOPIN</p>
-                            <p className=' text-gray-500 cardSubHeading '>Core Member</p>
+                            <img src={card2} className="card2Img w-24 ml-4 mb-3" />
+                            <p className='font-bold text-lg page2CardHeading '>CHOPIN</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading '>Core Member</p>
 
-                            <div className="twitter-icon-container text-center mr-5 hidden text-white fill-white">
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
                                 <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
                             </div>
                         </div>
 
                         <div className='homePage2IndivitualCard'>
-                            <img src={card3} className="card3Img relative top-10 ml-3" />
-                            <p className='font-bold text-xl card3Text'>MASTER...</p>
-                            <p className=' text-gray-500 card3Text cardSubHeading'>Co-Founder</p>
+                            <img src={card3} className="card3Img w-24 relative top-1 ml-10" />
+                            <p className='font-bold text-lg card3Text page2CardHeading'>MASTER...</p>
+                            <p className=' text-gray-500 card3Text cardSubHeading page2CardSubHeading'>Co-Founder</p>
 
-                            <div className="twitter-icon-container text-center mr-5 hidden text-white fill-white">
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
                                 <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
                             </div>
                         </div>
 
                         <div className='homePage2IndivitualCard'>
                             <div className=' overflow-hidden'>
-                                <img src={card4} className="ml-5 cardimg4" />
+                                <img src={card4} className="ml-10 w-24 cardimg4" />
                             </div>
-                            <p className='font-bold text-xl card4Text'>MARCO</p>
-                            <p className=' text-gray-500 cardSubHeading card4Text'>Designer</p>
+                            <p className='font-bold text-lg card4Text page2CardHeading'>MARCO</p>
+                            <p className=' text-gray-500 cardSubHeading card4Text page2CardSubHeading'>Designer</p>
 
-                            <div className="twitter-icon-container text-center mr-5 hidden text-white fill-white">
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
                                 <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
                             </div>
                         </div>
 
                         <div className='homePage2IndivitualCard'>
-                            <img src={card5} className="ml-6 w-28 mb-1 mt-3 " />
-                            <p className='font-bold text-xl'>JOCHEN</p>
-                            <p className=' text-gray-500 cardSubHeading'>Developer</p>
+                            <img src={card5} className="ml-9 w-24 " />
+                            <p className='font-bold text-lg page2CardHeading card5Text'>JOCHEN</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading card5Text'>Developer</p>
 
-                            <div className="twitter-icon-container text-center mr-5 hidden text-white fill-white">
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
                                 <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
                             </div>
                         </div>
+
+
+                        <div className='homePage2IndivitualCard'>
+                            <img src={card6} className="ml-3 w-28  mt-3 " />
+                            <p className='font-bold text-lg page2CardHeading'>MS FRO...</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Co-Founder</p>
+
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
+                                <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
+                            </div>
+                        </div>
+
+                        <div className='homePage2IndivitualCard'>
+                            <img src={card7} className="ml-1 w-28 mb-4 " />
+                            <p className='font-bold text-lg page2CardHeading'>STEPHEN</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Creative</p>
+
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
+                                <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
+                            </div>
+                        </div>
+
+                        <div className='homePage2IndivitualCard'>
+                            <img src={card8} className="ml-2 w-28  mt-3 " />
+                            <p className='font-bold text-lg page2CardHeading'>PAUL</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Ambassador</p>
+
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
+                                <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
+                            </div>
+                        </div>
+
+                        <div className='homePage2IndivitualCard'>
+                            <img src={card9} className="ml-2 w-28  mt-3 " />
+                            <p className='font-bold text-lg page2CardHeading'>JERRY</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Ambassador</p>
+
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
+                                <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
+                            </div>
+                        </div>
+
+                        <div className='homePage2IndivitualCard'>
+                            <img src={card10} className="ml-3 w-28  mt-0 mb-3 " />
+                            <p className='font-bold text-lg page2CardHeading'>WHALE</p>
+                            <p className=' text-gray-500 cardSubHeading page2CardSubHeading'>Whale PFP</p>
+
+                            <div className="twitter-icon-container text-center mr-20 hidden text-white fill-white">
+                                <span className='flex'><FaTwitter className='text-lg' /> @CRAZYX </span>
+                            </div>
+                        </div>
+
 
 
                     </div>

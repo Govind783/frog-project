@@ -67,7 +67,7 @@ const Careers = () => {
             </div>
 
 
-            <div class="container capitalize">
+            <div class="container capitalize popinsFont">
                 <Link to={`/careers/art-director`}>
                     <div className='mt-18 a' onMouseOver={addClassHnadler} onMouseLeave={removeClassList}>
                         <div className=" text-start pl-16 th">

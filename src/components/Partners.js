@@ -32,16 +32,18 @@ const Partners = () => {
 
 
                         <br />
-                        <p className=' font-medium'>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.Velit <br />
-                            officia consequat duis enim velit mollit.</p>
+                        <p className=' font-medium popinsFont'>Even in the far Galaxies permanent foundations are created through <br />
+                            interplanetary connections, think of the stars; Sagittarius, Leo, Taurus. <br />
+
+                        </p>
                         <br />
 
-                        <p className=' font-medium'> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br />
-                            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. <br />
-                            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat <br />
-                            sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua <br />
-                            dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br />
-                            veniam consequat sunt nostrud amet.  </p>
+                        <p className=' font-medium popinsFont'>
+
+                            We at FROGGIES connect in the same way through meaningful partnerships, <br />
+                            those that really matter now, and many light-years to come. <br />
+
+                        </p>
 
                     </div>
                     <br />
@@ -75,7 +77,11 @@ const Partners = () => {
                         <img src={lens} className="lens" />
                     </div>
 
+                    <br />
+                    <br />
                 </div>
+
+
 
 
 

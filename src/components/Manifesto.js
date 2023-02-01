@@ -17,7 +17,7 @@ const Manifesto = () => {
                 <p className='faqLine manifestoLine'></p>
             </div>
 
-            <div className=' text-left font-medium maifestoTextHold pl-20 pr-6'>
+            <div className=' text-left font-medium maifestoTextHold pl-20 pr-6 popinsFont'>
                 <p>
                     Beyond the stars, beyond the night, A future bright, a cosmic sight. <br />
                     Vast and endless, the expanse calls, With promise of discovery, and new horizons for us all. <br />

@@ -88,7 +88,7 @@ const FaqComponent = () => {
                 <p className='faqLine'></p>
             </div>
 
-            <div className=' text-left wid'>
+            <div className=' text-left wid popinsFont'>
 
                 <Faq
                     data={data}
