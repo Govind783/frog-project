@@ -31,7 +31,7 @@ careers page again => url = /careers
 
 
 
-manifesto Page => url =  /manifesto
+manifesto Page => url = /manifesto
 ![manifesto page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815063/manifesto_tops8z.jpg)
 
 
@@ -46,7 +46,7 @@ career specific page again =>  url = /careers/jobname
 ![career specific page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815138/carerspec2_lyiqsj.jpg)
 
 
-FAQ page =>   url = /faq
+FAQ page =>   url =/faq
 
 ![FAQ page](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674815136/faq_zhfngj.jpg)
 
