@@ -94,7 +94,7 @@ const HomePage4 = () => {
                         </div>
 
                         <div className='page4Indivitual'>
-                            <div className='page4BTNContainer flex gap-2'>
+                            <div className='page4BTNContainer flex'>
                                 <img src={btnAsset2} />
                                 <div className='flex flex-col pt-3 pr-3'>
                                     <p className=' z-50 font-semibold text-xl text-black sec4BtnHeading'>INTERSTELLAR </p>
