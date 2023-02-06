@@ -28,6 +28,7 @@ import NavGallectic from './components/NavGallectic';
 import CareersNavbar from './components/CareersNavbar';
 import ManifestoNav from './components/ManifestoNav';
 import SiteMap from './components/SiteMap';
+import AstroNomicsFinal from './components/AstroNomicsFinal';
 
 function App() {
   const [width, height] = useWindowSize()
@@ -43,7 +44,7 @@ function App() {
           <Route path='/manifesto' element={<><ManifestoNav />   <Manifesto /> </>} />
           <Route path='/faq' element={<><Navbar />   <FaqComponent /> </>} />
           <Route path='/partners' element={<> <CareersNavbar />  <Partners /> </>} />
-          <Route path='/astronomics' element={<><CareersNavbar />   {width > 950 ? <AstroNomics /> : <AstroNomicsMobile />}   </>} />
+          <Route path='/astronomics' element={<><CareersNavbar />   <AstroNomicsFinal />   </>} />
           <Route path='/try' element={<> <Example />   </>} />
           <Route path='/sitemap' element={<> <CareersNavbar />  <SiteMap /> </>} />
 

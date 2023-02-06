@@ -1,0 +1,123 @@
+.astroBtnIndivitual {
+    width: 15rem;
+    border: 2px solid white;
+    height: 4rem;
+    padding-top: 1.2rem;
+
+
+}
+
+.astroBurnImg {
+    width: 15rem;
+    height: 9rem;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+.astroTokensBtnHold {
+    width: 40rem;
+    align-items: center;
+}
+
+.astroLine1 {
+    background-color: rgba(220, 220, 220, 1);
+    width: 40rem;
+    height: 0.1rem;
+}
+
+.astroBetweenLineContent {
+    width: 40rem;
+}
+
+.mainContentHold {
+    width: 41rem;
+}
+
+
+.astroFrogImgHold {
+    position: relative;
+    top: -40rem;
+    width: 100%;
+}
+
+.astroStats {
+    color: rgba(204, 204, 204, 1);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+.astronomicssFlexParent {
+    max-height: 100%;
+}
+
+
+@media(max-width:1300px) {
+    .astroFrog {
+        width: 31rem;
+    }
+
+    .astroFrogImgHold {
+        top: -33rem;
+
+    }
+}
+
+@media(max-width:1140px) {
+    .astroFrogImgHold {
+        display: none;
+    }
+}
+
+.astroFireFull {
+    position: relative;
+    left: -4.4rem;
+    top: -4rem;
+    width: 6rem;
+}
+
+.astroFireHalf {
+    position: relative;
+    top: 3.8rem;
+    left: 5.4rem;
+
+}
+
+@media(max-width:600px) {
+
+    .astroHeading1 {
+        font-size: 2.8rem;
+        padding-left: 1rem;
+
+    }
+
+    .astroBetweenLineContent {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .astroLine1 {
+        padding-right: 2rem;
+        position: relative;
+        left: 0.4rem;
+        padding-left: 2.5rem;
+        width: 21.4rem;
+    }
+
+    .astroTokensBtnHold {
+        width: 24rem;
+        align-items: center;
+        padding-left: 1.6rem;
+        padding-right: 2rem;
+    }
+
+    .AstroNomicsFinalMainParent {
+        background: #030835;
+        height: 120vh;
+    }
+
+    .astromobHold{
+        padding-left: 1rem;
+    }
+
+}

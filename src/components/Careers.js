@@ -134,7 +134,6 @@ const Careers = () => {
 
             <div className='dtoryPartenrship dtoryPartenrshipCareers flex flex-wrap justify-end'>
                 <p></p>
-                <p>Partenered With <span className=' underline'>Dtory Studios </span></p>
             </div>
 
         </div>

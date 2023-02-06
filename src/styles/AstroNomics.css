@@ -35,3 +35,13 @@
     height: 0.08rem;
 
 }
+
+/*  ASTRONOMICS FINAL STYLES */
+.AstroNomicsFinalMainParent {
+    background: #030835;
+    height: 100vh;
+}
+.astroHeading1{
+    font-size: 3.4rem;
+
+}

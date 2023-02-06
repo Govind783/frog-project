@@ -11,6 +11,10 @@
     position: relative;
 }
 
+.frogText3{
+    font-size: 2.94rem;
+}
+
 .HomeLineHold {}
 
 .whiteLine {
@@ -176,6 +180,19 @@
 @media(max-width:1320px) {
     .asset1 {
         width: 27rem;
+    }
+
+    .asset1Hold {
+        height: 29rem !important;
+
+    }
+
+    .frgst1 {
+        width: 28rem;
+    }
+
+    .sec4Logo2Hold {
+        top: -31rem !important;
     }
 }
 

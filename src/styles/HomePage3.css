@@ -3,22 +3,70 @@
     margin-left: 4rem;
 }
 
-.contesllationHold{
+.contesllationHold {
     width: 100%;
     height: 30rem;
     background-color: transparent;
 }
 
-.sec3imgConstillationHold{
-}
+.sec3imgConstillationHold {}
 
-.constilationImg{
-}
+.constilationImg {}
 
 
-@media(min-width:1170px){
+@media(min-width:1170px) {
 
-    .homeTxtHold2{
+    .homeTxtHold2 {
         margin-right: 2rem;
     }
+}
+
+
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    height: 18rem;
+}
+
+.item4 {
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+    position: relative;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    box-sizing: border-box;
+    align-items: center;
+    gap: 1.7rem;
+}
+
+.blockk {
+    display: block;
+    color: rgba(185, 185, 185, 1);
+
+}
+
+/* width */
+.container4::-webkit-scrollbar {
+    width: 9px;
+}
+
+/* Track */
+.container4::-webkit-scrollbar-track {
+    background-color: #030835;
+}
+
+/* Handle */
+.container4::-webkit-scrollbar-thumb {
+    background: rgb(255, 255, 255);
+    height: 7px;
+    width: 4px;
+    border-radius: 20px;
+}
+
+/* Handle on hover */
+.container4::-webkit-scrollbar-thumb:hover {
+    background: rgb(255, 255, 255);
 }

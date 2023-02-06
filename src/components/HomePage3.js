@@ -5,6 +5,9 @@ import asset1 from "../assets/mainAsset.png"
 import { useState, useEffect } from 'react'
 import sec3img from "../assets/constilatio.png"
 import { HashLink } from 'react-router-hash-link'
+import greenCheck from "../assets/checked.png"
+import yellowCheck from "../assets/yellowcheck.png"
+import unchecked from "../assets/unchecked.png"
 
 const HomePage3 = () => {
 
@@ -65,11 +68,114 @@ const HomePage3 = () => {
 
                 <div className='flex flex-col text-left homeTxtHold' style={{ width: "36rem" }}>
                     <p className=' font-medium abtus text-left'>AUDIENCE </p>
-                    <p className='uppercase font-bold frogText'>Exploring the  <br />
-                        Galaxy</p>
+                    <p className='uppercase font-bold frogText frogText3'>TEAM IS CONSTANTLY <br />
+                        BUILDING; WHATS NEXT?</p>
 
-                    <div className='sec3imgConstillationHold'>
-                        <img src={sec3img} className="constilationImg" />
+                    <br />
+                    
+                    <div className="container4">
+                        <div>
+                            <div className="item4">  <span> <img src={greenCheck} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021</p>
+                                <p className='blockk'>15th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={greenCheck} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={yellowCheck} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={yellowCheck} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+                            <div className="item4">  <span> <img src={unchecked} /> </span>   <div>
+                                <p> We are Froggies, a memecoin launched in November 2021 </p>
+                                <p className='blockk'>16th Jan 2023 </p>
+                            </div>
+                            </div>
+
+
+
+
+
+                        </div>
                     </div>
 
 

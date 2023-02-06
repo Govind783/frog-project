@@ -101,10 +101,7 @@ const FaqComponent = () => {
             <br />
             <br />
 
-            <div className='dtoryPartenrship dtoryPartenrshipCareers flex flex-wrap relative top-10 justify-end'>
-                <p></p>
-                <p>Partenered With <span className=' underline'>Dtory Studios </span></p>
-            </div>
+           
 
 
         </div>

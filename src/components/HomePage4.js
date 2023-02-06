@@ -2,12 +2,15 @@ import React from 'react'
 import '../styles/HomePage4.css'
 import { BsArrowDown } from 'react-icons/bs'
 import asset1 from "../assets/mainAsset.png"
-import btnAsset1 from "../assets/sec4Btn1.png"
-import btnAsset2 from "../assets/sec4Btn2.png"
-import btnAsset3 from "../assets/sec4Btn3.png"
-import btnAsset4 from "../assets/sec4Btn4.png"
+import btnAsset1 from "../assets/sec4-1.png"
+import btnAsset2 from "../assets/sec4-2.png"
+import btnAsset3 from "../assets/sec4-3.png"
+import btnAsset4 from "../assets/sec4-4.png"
 import { useState, useEffect } from 'react'
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
+import frgst1 from "../assets/sec4Frog1.png";
+import frgst2 from "../assets/sec4Frog2.png";
+
 
 const HomePage4 = () => {
 
@@ -80,11 +83,11 @@ const HomePage4 = () => {
 
 
                         <div className='page4Indivitual'>
-                            <div className='page4BTNContainer flex gap-2'>
+                            <div className='page4BTNContainer flex justify-around'>
                                 <img src={btnAsset1} />
-                                <div className='flex flex-col pt-3'>
-                                    <p className=' z-50 font-bold text-xl text-black sec4BtnHeading'>BUY </p>
-                                    <p className=' font-medium pg4P'>Buy froggies token now</p>
+                                <div className='flex flex-col pt-3 btn1Mobile'>
+                                    <p className=' z-50 font-semibold text-xl text-black sec4BtnHeading'>BUY </p>
+                                    <p className='mobPara1 pg4P'>Buy froggies token now</p>
                                 </div>
 
                             </div>
@@ -93,31 +96,31 @@ const HomePage4 = () => {
                         <div className='page4Indivitual'>
                             <div className='page4BTNContainer flex gap-2'>
                                 <img src={btnAsset2} />
-                                <div className='flex flex-col pt-3'>
-                                    <p className=' z-50 font-bold text-xl text-black sec4BtnHeading'>INTERSTELLAR </p>
-                                    <p className=' font-medium pg4P'>Buy froggies token now</p>
+                                <div className='flex flex-col pt-3 pr-3'>
+                                    <p className=' z-50 font-semibold text-xl text-black sec4BtnHeading'>INTERSTELLAR </p>
+                                    <p className=' pg4P'>Learn More</p>
                                 </div>
 
                             </div>
                         </div>
 
                         <div className='page4Indivitual'>
-                            <div className='page4BTNContainer flex gap-2'>
-                                <img src={btnAsset3} />
-                                <div className='flex flex-col pt-3'>
-                                    <p className=' z-50 font-bold text-xl text-black sec4BtnHeading'>MANIFESTO </p>
-                                    <p className=' font-medium pg4P'>Buy froggies token now</p>
+                            <div className='page4BTNContainer flex justify-center'>
+                                <img src={btnAsset3} className="mt-4" />
+                                <div className='flex flex-col pt-3 pl-7'>
+                                    <p className=' z-50 font-semibold text-xl text-black sec4BtnHeading'>MANIFESTO </p>
+                                    <p className=' pg4P'>Short Cosmic Trip</p>
                                 </div>
 
                             </div>
                         </div>
 
                         <div className='page4Indivitual'>
-                            <div className='page4BTNContainer flex gap-2'>
+                            <div className='page4BTNContainer flex justify-around'>
                                 <img src={btnAsset4} />
                                 <div className='flex flex-col pt-3'>
-                                    <p className=' z-50 font-bold text-xl text-black sec4BtnHeading'>ASTRONOMICS </p>
-                                    <p className=' font-medium pg4P'>Outerspace finance</p>
+                                    <p className=' z-50 font-semibold text-xl text-black sec4BtnHeading'>ASTRONOMICS </p>
+                                    <p className=' pg4P'>Outerspace finance</p>
                                 </div>
 
                             </div>
@@ -129,10 +132,19 @@ const HomePage4 = () => {
                 </div>
             </div>
 
+            <div className='flex justify-end w-full z-50 sec4Logo1Hold '>
+                <p className=' w-6 h-6'></p>
+                <img src={frgst1} className="frgst1" />
+            </div>
 
-            <div className='flex justify-end asset1Hold'>
+            <div className='flex justify-end asset1Hold z-50'>
                 <p className=' w-6 h-6'></p>
                 <img src={asset1} className="asset1" />
+            </div>
+
+            <div className='flex justify-start sec4Logo2Hold'>
+            <p className=' h-6'></p>
+                <img src={frgst2} className="frgst1 frgst2" />
             </div>
 
         </div>)

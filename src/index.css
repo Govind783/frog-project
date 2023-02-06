@@ -71,31 +71,7 @@ body {
 
 }
 
-@media(max-width:700px) {
-  ::-webkit-scrollbar {
-    display: none;
-  }
-}
 
-/* width */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #1e1d1d;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 255);
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(255, 255, 255);
-}
 
 /* DTORY LABEL */
 

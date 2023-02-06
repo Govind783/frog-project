@@ -1,15 +1,15 @@
 .pg4CTAConatiner {
-    gap: 2.5rem;
+    gap: 0rem;
     width: 48rem;
 
 }
 
 .page4Indivitual {
-    background: rgba(3, 8, 50, 1);
-color: white;
-    border-radius: 6px;
+    color: white;
+    border-radius: 0px;
     width: 19.7rem;
     height: 5rem;
+    border: 3px solid white;
 }
 
 .pg4P {
@@ -17,19 +17,80 @@ color: white;
 
 }
 
+.asset1Hold {
+    height: 36rem;
+}
+
 .homeTextMainContainer4 {
     width: 59rem;
 
 }
 
-.sec4BtnHeading{
+.sec4Logo2Hold {
+    position: relative;
+    top: -42rem;
+    width: 34rem;
+    background: rgba(1, 4, 23, 1);
+    width: 100%;
+}
+
+.sec4BtnHeading {
     color: rgba(255, 255, 255, 1);
-    
+
+}
+
+.sec4Logo1Hold {
+    position: relative;
+    top: -37rem;
+}
+
+.frgst2{
+    width: 35.5rem;
+}
+
+@media(max-width:1150px) {
+    .sec4Logo1Hold {
+        display: none;
+    }
+
+    .sec4Logo1Hold {
+        display: none;
+    }
+
+    .sec4Logo2Hold {
+        display: none;
+    }
+}
+
+@media(max-width: 610px) {
+    .sec4BtnHeading {
+        font-size: 1.1rem;
+    }
+
+    .mobPara1 {
+
+        font-size: 14px;
+    }
+
+    .btn1Mobile {
+        padding-right: 1rem;
+        position: relative;
+        left: 0.9rem;
+
+    }
 }
 
 @media(max-width:550px) {
     .homeTextMainContainer4 {
         height: 57rem;
         background: rgba(1, 4, 23, 1);
+    }
+
+
+}
+
+@media(max-width:700px){
+    .item4{
+        height: 15vh;
     }
 }
