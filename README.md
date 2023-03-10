@@ -7,8 +7,6 @@ PS: the backend is being handled by the client's teams after setting up the serv
 Till then I'm attaching the deployed front-end link and some screenShots:) 
 
 
-![Homepage section 1](https://live.staticflickr.com/65535/52738525061_58951f1d2c_z.jpg)
-
 Home page section 1 =>
 ![Homepage section 1](https://res.cloudinary.com/dqouqf5rl/image/upload/v1674814068/frogHome1_uoeue1.jpg)
 
